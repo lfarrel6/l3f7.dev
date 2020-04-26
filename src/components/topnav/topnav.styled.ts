@@ -13,14 +13,17 @@ export const StickyTopNav = styled.nav`
 `;
 
 export const NavHeader = styled.h4`
-  text-decoration: underline;
   color: ${({ theme }) => theme.text};
   margin: 0;
   margin-right: 50px;
   cursor: pointer;
+  font-family: 'Anonymous Pro', monospace !important;
+  padding: 0.4rem;
+  border: 1px solid ${({ theme }) => theme.text};
 
   &:hover{
     color: ${({ theme }) => theme.toggleColor};
+    border-color: ${({ theme }) => theme.toggleColor};
     transition: 0.2s all linear;
   }
 `;
