@@ -4,7 +4,7 @@ import { StickyTopNav, NavHeader } from './topnav.styled';
 const TopNav: StatelessComponent = () => {
   return (
     <StickyTopNav>
-      <NavHeader>Blog</NavHeader>
+      <NavHeader onClick={() => window.location.replace('https://blog.l3f7.dev')}>Blog</NavHeader>
     </StickyTopNav>
   )
 }
