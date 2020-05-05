@@ -8,7 +8,7 @@ export const Toggle = styled.div`
   background-color: ${({theme}) => theme.toggleColor};
   position: absolute;
   left: 3px;
-  transition: 0.6s all linear;
+  transition: 0.6s all ease-in-out;
   ${(props: IToggleProps) => toggleTheme(props.darkMode)}
   margin-top: ${(props: IToggleProps) => props.darkMode ? '8px' : '2px'};
 `;
@@ -20,7 +20,7 @@ const toggleTheme = (darkMode: boolean) => darkMode && css`
 `;
 
 const switchLabelTheme = (darkMode: boolean) => darkMode && css `
-  transition: 1s all linear;
+  transition: 0.6s all ease-in-out;
   border: none;
 `;
 
@@ -30,7 +30,7 @@ export const SwitchLabel = styled.label`
   border-radius: 50px;
   position: relative;
   cursor: pointer;
-  transition: 1s all linear;
+  transition: 0.6s all ease-in-out;
 
   ${(props: ISwitchLabelProps) => switchLabelTheme(props.darkMode)}
   ${({ theme }) => `
