@@ -22,5 +22,5 @@ export const MaxHeightFluidContainer = styled(FluidContainer)`
   background-color: ${({theme}) => theme.primary};
   display: flex;
   align-items: center;
-  transition: background-color linear 1s;
+  transition: background-color ease-in-out 0.6s;
 `;
