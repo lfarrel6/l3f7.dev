@@ -39,12 +39,11 @@ const App: FC = () => {
 					<Subtitle>
 						I'm a product-minded engineer.
 						<br />
-						I'm working for evervault to make data privacy simple and 
-						accessible for all.
+						I work at evervault to secure your most sensitive data.
 						<br />
 						If that sounds like something that would interest you, check out
 						our{' '}
-						<SubtleLink target="_blank" href="https://evervault.com/careers">careers page</SubtleLink>.
+						<SubtleLink target="_blank" href="https://evervault.com">website</SubtleLink>.
 					</Subtitle>
 				</PaddedDiv>
 				<FAB mode={mode} toggleTheme={toggleTheme} />
