@@ -10,9 +10,7 @@
 	},
 	"keywords": [
 		"react",
-		"typescript",
-		"template",
-		"boilerplate"
+		"typescript"
 	],
 	"author": "Liam Farrelly <lfarrel6@tcd.ie> (lfarrel6.github.io)",
 	"license": "MIT",
